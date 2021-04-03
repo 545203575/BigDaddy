@@ -1,24 +1,25 @@
 # bigdaddy
-
+>一个简略的上传文件web应用
 ## Project setup
-```
-npm install
-```
+>```
+>$ npm install
+>```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+### 启动项目
+>```
+> $ npm run serve
+> $ npm run dev
+>```
+### 缺失的功能
+>登录验证  
+>图片裁剪  
+>数据库相关
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### 补充说明
+>####关于文件上传的实现
+>文件上传的实现采用express框架，并采用cors进行跨域。
+>实际上我并不会这些技术，为了展示进度条等功能在网上找到相关代码copy。  
+>在评定分数时我申请将此部分分数扣去。
+>####响应式相关
+>在某些极其特别的尺寸上可能不完美适配  
+>尺寸过大时不全屏显示（主要体现在PC端），将界面放在了正中间。
